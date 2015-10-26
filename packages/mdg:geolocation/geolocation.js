@@ -9,9 +9,9 @@ var error = new ReactiveVar(null);
 
 // options for watchPosition
 var options = {
-  enableHighAccuracy: false,
-  maximumAge: 0,
-  timeout: 20000
+  enableHighAccuracy: true,
+  maximumAge: Infinity,
+  timeout: 30000
 };
 
 var onError = function (newError) {
